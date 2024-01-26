@@ -1,0 +1,8 @@
+Create database <databasename>;                                                           // create database
+use <databasename>;                                                                       // use the database or enter into the database
+create table <tablename>( columnname1 datatype (size), columnname2 datatype(size));       //create table 
+desc (object);                                                                             //describe the object
+select *form table;                                                                       //select all values of table    
+insert into t values (coulmnname1,coulmnname2);                                           //insert one row values
+alter table t add(coulmn3 datatype(size));                                                 //add more coulmn
+rename table t to tt;                                                                     //changes name                                              
