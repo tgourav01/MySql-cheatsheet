@@ -1,8 +1,12 @@
 Create database <databasename>;                                                           // create database
 use <databasename>;                                                                       // use the database or enter into the database
-create table <tablename>( columnname1 datatype (size), columnname2 datatype(size));       //create table 
-desc (object);                                                                             //describe the object
-select *form table;                                                                       //select all values of table    
+create table t( name1 datatype (size), name2 datatype(size));       //create table 
+desc t;                                                                             //describe the object
+select *form t;                                                                       //select all values of table    
 insert into t values (coulmnname1,coulmnname2);                                           //insert one row values
 alter table t add(coulmn3 datatype(size));                                                 //add more coulmn
 rename table t to tt;                                                                     //changes name                                              
+update t set name1="whatever" where name2 ="whatever";                                       update specific copulmn
+delete from t where name1="whatever";                                                    //delete specific row
+delete from t;                                                                            //delete all rows only not table
+drop table t;                                                                                //table wont exist anymore
